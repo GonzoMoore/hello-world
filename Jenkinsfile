@@ -1,10 +1,4 @@
- pipeline {
-        agent any
-        stages {
-            stage('Test') {
-                steps {
-                    echo 'Hello World ...'
-                }
-            }
-        }
-    }
+node ('test-1')
+{
+  echo scm.getUserRemoteConfigs()
+}
