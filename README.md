@@ -5,4 +5,4 @@ I think it is just great what GitHub is doing to promote global collaboration of
 
 Release 1.5.0 change.
 
-Testing connection.
+Using new CloudBees plugin.
