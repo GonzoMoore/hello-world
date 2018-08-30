@@ -9,9 +9,9 @@ node ('test-1')
         // We need to determine which repo triggered this build
         // and for that repo we'll use the triggering branch.
         if (env.CHANGE_URL.contains("gonzomoore/hello-world")) {
-            def api_branch = env.BRANCH_NAME
+            api_branch = env.BRANCH_NAME
         } else if (env.CHANGE_URL.contains("gonzomoore/docker-compose-demo")) {
-            def ui_branch = env.BRANCH_NAME
+            ui_branch = env.BRANCH_NAME
         }
     }
 
